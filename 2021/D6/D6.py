@@ -53,4 +53,5 @@ num_days = 256
 for i in range(num_days):
     print("Processing day {}.".format(i + 1))
     timersCount = process_daily_timers_better(timersCount)
+    #timers = process_daily_timers(timers)
 print("There are {} fish after {} days.".format(sum(timersCount), num_days))
